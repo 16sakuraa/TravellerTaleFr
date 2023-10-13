@@ -1,5 +1,12 @@
 "use client"; // This is a client component
+<html>
+<head>
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+
+</head>
+<body></body>
+</html>
+
 import React, { useEffect, useState } from 'react';
 import { BsBasket } from "react-icons/bs";
 import { AiOutlineMenu } from "react-icons/ai";

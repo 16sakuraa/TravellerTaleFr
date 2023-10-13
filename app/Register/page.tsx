@@ -1,5 +1,12 @@
 "use client"; // This is a client component
+<html>
+<head>
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+
+</head>
+<body></body>
+</html>
+
 import Navbar from "@/components/Navbar";
 import Link from 'next/link';
 import React, { useState } from 'react';
