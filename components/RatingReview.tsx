@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"; // This is a client component
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
 import React, { useState } from 'react';
 import { Rating, RoundedStar } from '@smastrom/react-rating'
 import '@smastrom/react-rating/style.css'

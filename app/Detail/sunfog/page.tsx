@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"; // This is a client component
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
 import Navbar from "@/components/Navbar";
 import AttractImage from "@/components/AttractImage";
 import Rating from "@/components/RatingReview";
