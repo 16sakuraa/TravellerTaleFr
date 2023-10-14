@@ -34,26 +34,6 @@ const GetAllAttraction = (): Promise<AxiosResponse<any>> => {
 
 function AttractionDetail({}){
     const [attractionReview, setAttractionReview] = useState<any[]>([]);
-    // useEffect(() => {
-    //     GetAllAttraction()
-    //     .then((response) => {
-    //         const attractions = response.data[0].attractions;
-    //         if (attractions && attractions.length > 0) {
-    //             const AttractionName = attractions[3].name;
-    //             const AttractionReview = attractions[3].reviews;
-    //             setAttractionReview(AttractionReview);
-    //             console.log('Attraction Name:', AttractionName);
-    //             console.log('Reviews',AttractionReview)
-    //           } else {
-    //             console.log('No attractions found.');
-    //         }
-    //     })
-    //     .catch((error) => {
-    //         // Handle errors
-    //         console.error('Error getting attractions:', error);
-    //         alert('Error reading value');
-    //       });
-    // }, []);
     useEffect(() => {
         const fetchAttractions = async () => {
           try {

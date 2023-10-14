@@ -9,8 +9,8 @@ const kanit = Kanit({
 })
 
 export const metadata = {
-  title: 'Travel Tale',
-  description: 'local travel in Tak',
+  title: 'TravelerTale',
+  description: 'Local Travel in Tak',
 }
 
 export default function RootLayout({
