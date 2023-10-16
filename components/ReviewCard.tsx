@@ -34,7 +34,7 @@ export const ReviewCard: React.FC<ReviewCardProps> = ({ username, star, content,
   
     };
 
-    const displayContent = expanded ? content : content.slice(0, 130);
+    const displayContent = expanded ? content : content.slice(0, 110);
 
 
     return (
