@@ -35,7 +35,7 @@ export default function RegisterUser(){
         const trimmedUser = username.trim();
         const trimmedPassword = password.trim();
 
-        const bannedChar = ['@','%','#','&','\"','\'','=','+','-','(',')','[',']','^','?','<','>'];
+        const bannedChar = ['@','%','#','&','=','+','-','(',')','[',']','^','?','<','>','$'];
 
         if (username.includes(' ') || password.includes(' '))
         {

@@ -44,12 +44,12 @@ export default function Home() {
         <Image src="/Pic/Banner.jpeg" width={300} height={200} alt="Picture of the author"/>
         <div className="w-[500px] h-[200px] flex flex-col">
           <h1 className="font-bold text-center text-xl my-5">ข้อมูลทั่วไป</h1>
-          <h1 className="font-bold text-left text-sm">คำขวัญประจำจังหวัด :  ธรรมชาติน่ายล ภูมิพลเขื่อนใหญ่ พระเจ้าตากเกรียงไกร เมืองไม้และป่างาม</h1>
-          <h1 className="font-bold text-left text-sm">ตราประจำจังหวัด : รูปสมเด็จพระเนรศวรมหาราชทรงหลั่ง
+          <h1 className="text-left text-sm">คำขวัญประจำจังหวัด :  ธรรมชาติน่ายล ภูมิพลเขื่อนใหญ่ พระเจ้าตากเกรียงไกร เมืองไม้และป่างาม</h1>
+          <h1 className="text-left text-sm">ตราประจำจังหวัด : รูปสมเด็จพระเนรศวรมหาราชทรงหลั่ง
           ทักษิโณทกบนคอช้าง</h1>
-          <h1 className="font-bold text-left text-sm">ต้นไม้ประจำจังหวัด :  ต้นแดง (Xylia Kerrii)</h1>
-          <h1 className="font-bold text-left text-sm">ดอกไม้ประจำจังหวัด :  ดอกเสี้ยวดอกขาว (Bauhinial variegata)</h1>
-          <h1 className="font-bold text-left text-sm">สัตว์ประจำประวัติ :  ปลาตะพากส้มหรือปลาจาด (Hypsibarbusmalcolmi)</h1>
+          <h1 className="text-sm">ต้นไม้ประจำจังหวัด :  ต้นแดง (Xylia Kerrii)</h1>
+          <h1 className="text-left text-sm">ดอกไม้ประจำจังหวัด :  ดอกเสี้ยวดอกขาว (Bauhinial variegata)</h1>
+          <h1 className="text-left text-sm">สัตว์ประจำประวัติ :  ปลาตะพากส้มหรือปลาจาด (Hypsibarbusmalcolmi)</h1>
         </div>
       </div>
 
@@ -125,127 +125,167 @@ export default function Home() {
       >
         <SwiperSlide>
         <Link href="/Detail/thilosu">
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/1.png" width={300} height={450} alt="Picture of the author"/>
+            <h1 className="ml-5 mt-5 font-bold text-xl">น้ำตกเปรโต๊ะลอซู</h1>
+            <h1 className="ml-5 mt-1">ธรรมชาติ</h1>
           </div>
         </Link>  
         </SwiperSlide>
 
         <SwiperSlide>
-        <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+        <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/2.png" width={400} height={300} alt="Picture of the author"/>
+            <h1 className="ml-5 mt-5 font-bold text-xl">น้ำตกทีลอซู</h1>
+            <h1 className="ml-5 mt-1">ธรรมชาติ</h1>
         </div>
         </SwiperSlide>
           
         <SwiperSlide>
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-          <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/3.png" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/3.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">น้ำตกทีลอจ่อ</h1>
+            <h1 className="ml-5 mt-1">ธรรมชาติ</h1>
           </div>
         </SwiperSlide>
 
         
-          <SwiperSlide>
-            <Link href="/Detail/bluecave">
-              <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-                <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/4.png" width={400} height={300} alt="Picture of the author"/> 
-              </div>
-            </Link>
-          </SwiperSlide>
+        <SwiperSlide>
+          <Link href="/Detail/bluecave">
+            <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+              <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/4.png" width={400} height={300} alt="Picture of the author"/> 
+              <h1 className="ml-5 mt-5 font-bold text-xl">ถ้ำสีฟ้า</h1>
+              <h1 className="ml-5 mt-1">ธรรมชาติ</h1>
+            </div>
+          </Link>
+        </SwiperSlide>
         
 
         <SwiperSlide>
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-          <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Cafe/1.png" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Cafe/1.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">เถียงนา Coffee and Bakery Farm</h1>
+            <h1 className="ml-5 mt-1">คาเฟ่</h1>
           </div>
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Cafe/2.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">Lube หลืบ</h1>
+            <h1 className="ml-5 mt-1">คาเฟ่</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Cafe/3.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">Homemade Garden</h1>
+            <h1 className="ml-5 mt-1">คาเฟ่</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Cafe/4.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">ZinzanO</h1>
+            <h1 className="ml-5 mt-1">คาเฟ่</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/History/1.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">ตรอกบ้านจีน</h1>
+            <h1 className="ml-5 mt-1">ประวัติศาตร์</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/History/2.jpg" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">วัดเขาลาน้ำ</h1>
+            <h1 className="ml-5 mt-1">ประวัติศาตร์</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/History/3.jpg" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">วัดไทยวัฒนาราม</h1>
+            <h1 className="ml-5 mt-1">ประวัติศาตร์</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/History/4.jpg" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">วัดพระบรมธาตุ บ้านตาก</h1>
+            <h1 className="ml-5 mt-1">ประวัติศาตร์</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Activity/1.jpg" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">อุ้มผาง</h1>
+            <h1 className="ml-5 mt-1">กิจกรรม</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Activity/2.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">ตลาดแม่เมย</h1>
+            <h1 className="ml-5 mt-1">กิจกรรม</h1> 
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Activity/3.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">กาดนั่งยองคล้องย่าม</h1>
+            <h1 className="ml-5 mt-1">กิจกรรม</h1> 
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Activity/4.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">กาดนั่งยองคล้องย่าม</h1>
+            <h1 className="ml-5 mt-1">กิจกรรม</h1> 
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Other/1.jpg" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">บ้านช้าง</h1>
+            <h1 className="ml-5 mt-1">อื่นๆ</h1> 
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Other/2.jpg" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">ปิงวิว</h1>
+            <h1 className="ml-5 mt-1">อื่นๆ</h1> 
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Other/3.jpg" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">แมกไม้ริเวอร์ไซต์</h1>
+            <h1 className="ml-5 mt-1">อื่นๆ</h1> 
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Other/4.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">สะพานแขวนสมโภช</h1>
+            <h1 className="ml-5 mt-1">อื่นๆ</h1> 
           </div>  
         </SwiperSlide>
         
@@ -287,123 +327,73 @@ export default function Home() {
         modules={[EffectCoverflow, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/1.png" width={300} height={450} alt="Picture of the author"/>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-        <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/2.png" width={400} height={300} alt="Picture of the author"/>
-        </div>
-        </SwiperSlide>
-          
-        <SwiperSlide>
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-          <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/3.png" width={400} height={300} alt="Picture of the author"/> 
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-          <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/4.png" width={400} height={300} alt="Picture of the author"/> 
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-          <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Cafe/1.png" width={400} height={300} alt="Picture of the author"/> 
-          </div>
-        </SwiperSlide>
-
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Cafe/2.png" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/Product/1.jpg" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">ดอลลี่</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Cafe/3.png" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/Product/2.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">ข้าวปลอดสารป้าเกวลี</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Cafe/4.png" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/Product/3.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">หน่อไม้ดอง</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/History/1.png" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/Product/4.jpg" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">ผ้าโผกผม</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/History/2.jpg" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/Product/5.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">ครกหินแกรนิต</h1> 
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/History/3.jpg" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/Product/6.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">ตะกร้าหวายสานมือ</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/History/4.jpg" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/Product/7.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">กาดนั่งยองคล้องย่าม</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Activity/1.jpg" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/Product/8.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">กระเป๋าใยกัญชง</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Activity/2.png" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/Product/9.png" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">กระเป๋าโครเชต์</h1>
           </div>  
         </SwiperSlide>
 
         <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Activity/3.png" width={400} height={300} alt="Picture of the author"/> 
-          </div>  
-        </SwiperSlide>
-
-        <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Activity/4.png" width={400} height={300} alt="Picture of the author"/> 
-          </div>  
-        </SwiperSlide>
-
-        <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Other/1.jpg" width={400} height={300} alt="Picture of the author"/> 
-          </div>  
-        </SwiperSlide>
-
-        <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Other/2.jpg" width={400} height={300} alt="Picture of the author"/> 
-          </div>  
-        </SwiperSlide>
-
-        <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Other/3.jpg" width={400} height={300} alt="Picture of the author"/> 
-          </div>  
-        </SwiperSlide>
-
-        <SwiperSlide> 
-          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-row justify-start  items-start ">
-            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Other/4.png" width={400} height={300} alt="Picture of the author"/> 
+          <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
+            <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/Product/10.jpg" width={400} height={300} alt="Picture of the author"/> 
+            <h1 className="ml-5 mt-5 font-bold text-xl">ไวน์หมักผลไม้อินทรีย์</h1>
           </div>  
         </SwiperSlide>
         

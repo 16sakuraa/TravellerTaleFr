@@ -3,7 +3,7 @@
 "use client"; // This is a client component
 import Navbar from "@/components/Navbar";
 import React, { useState } from 'react';
-
+import Image from "next/image";
 export default function About(){
     const [isMeowing, setIsMeowing] = useState(false);
 
