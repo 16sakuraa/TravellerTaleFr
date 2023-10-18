@@ -14,14 +14,14 @@ import axios from "axios";
 import { useRouter } from 'next/navigation';
 
 const request = axios.create({
-    baseURL: "http://34.124.245.31:8000"  // This should be the backend server's IP and port
+    baseURL: "http://35.198.218.170:8000"  // This should be the backend server's IP and port
   });
   
   
   type payload = {firstname:string,lastname:string,username:string,password:string}
   
   const Register = (data:payload)=>
-              request.post("http://34.124.245.31:8000/register" , data)
+              request.post("http://35.198.218.170:8000/register" , data)
 
 export default function RegisterUser(){
 

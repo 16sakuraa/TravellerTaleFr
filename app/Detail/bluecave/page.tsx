@@ -28,7 +28,7 @@ const request = axios.create({
 //         	request.get("http://34.124.245.31:8000/attraction" )
 
 const GetAllAttraction = (): Promise<AxiosResponse<any>> => {
-        return request.get("http://34.124.245.31:8000/attraction");
+        return request.get("http://35.198.218.170:8000/attraction");
 };
 
 

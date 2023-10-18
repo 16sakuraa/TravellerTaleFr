@@ -92,7 +92,7 @@ export default function Home() {
 
       {/*Attraction*/}
       <div className="slider-controler w-[1500px] h-[50px] flex flex-row justify-around my-12 items-center">
-        <h1 className="w-[500px] text-black font-bold text-left ml-10 text-2xl">ATTRACTRION</h1>
+        <h1 className="w-[500px] text-black font-bold text-left ml-10 text-2xl">ATTRACTION</h1>
           <div className="w-[500px] flex flex-row justify-end">
             <div className="prev">
               <BsFillArrowLeftCircleFill className = "w-[55px] h-[55px] hover:fill-slate-600 cursor-pointer duration-300 mx-2"/>
@@ -134,11 +134,13 @@ export default function Home() {
         </SwiperSlide>
 
         <SwiperSlide>
+        <Link href="/Detail/thilosu">
         <div className="w-[275px] h-[450px] rounded-[20px] bg-white shadow-xl flex flex-col justify-start  items-start ">
             <Image className="rounded-t-[20px] w-[275px] h-[250px]" src="/PicSlider/Nature/2.png" width={400} height={300} alt="Picture of the author"/>
             <h1 className="ml-5 mt-5 font-bold text-xl">น้ำตกทีลอซู</h1>
             <h1 className="ml-5 mt-1">ธรรมชาติ</h1>
         </div>
+        </Link>  
         </SwiperSlide>
           
         <SwiperSlide>

@@ -20,11 +20,11 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import axios from "axios";
 const request = axios.create({
-  baseURL: "http://34.124.245.31:8000" 
+  baseURL: "http://35.198.218.170:8000" 
 });
 import Popup from "@/components/Popup";
 const GetAllAttraction = ()=>
-        	request.get("http://34.124.245.31:8000/attraction" )
+        	request.get("http://35.198.218.170:8000/attraction" )
 
 
 export default function AttractionDetail({}){

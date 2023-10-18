@@ -15,17 +15,17 @@ import { useRouter } from 'next/navigation';
 import getToken from "@/components/getToken";
 
 const request = axios.create({
-  baseURL: "http://34.124.245.31:8000"  // This should be the backend server's IP and port
+  baseURL: "http://35.198.218.170:8000"  // This should be the backend server's IP and port
 });
 
 
 type payload = {username:string,password:string}
 
 const Login = (data:payload)=>
-        	request.post("http://34.124.245.31:8000/login" , data)
+        	request.post("http://35.198.218.170:8000/login" , data)
 
 const GetAllAttraction = ()=>
-        	request.get("http://34.124.245.31:8000/attraction" )
+        	request.get("http://35.198.218.170:8000/attraction" )
 
 export default function UserLogin(){
 

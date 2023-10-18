@@ -1,13 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"; // This is a client component
-<html>
-<head>
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
-
-</head>
-<body></body>
-</html>
-
 import React, { useState } from 'react';
 import { Rating, RoundedStar } from '@smastrom/react-rating'
 import '@smastrom/react-rating/style.css'
@@ -16,7 +8,7 @@ import getToken from './getToken';
 import getUsername from './getUsername';
 
 const request = axios.create({
-  baseURL: "http://34.124.245.31:8000"  // This should be the backend server's IP and port
+  baseURL: "http://35.198.218.170:8000"  // This should be the backend server's IP and port
 });
 
 
@@ -24,7 +16,7 @@ const request = axios.create({
 type payload = {attractionId: string; detail: string; rating: number; } 
 
 const AddAttractionReview = (data: payload, authToken: string) =>
-  request.post("http://34.124.245.31:8000/attraction/addReview", data, {
+  request.post("http://35.198.218.170:8000/attraction/addReview", data, {
     headers: {
       'Authorization': `${authToken}`, // Replace 'Bearer' with the appropriate authentication scheme if needed
     },
