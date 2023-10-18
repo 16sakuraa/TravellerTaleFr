@@ -1,11 +1,4 @@
 "use client"; // This is a client component
-<html>
-<head>
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
-
-</head>
-<body></body>
-</html>
 
 import React, { useEffect, useState } from 'react';
 import { BsBasket } from "react-icons/bs";
@@ -18,11 +11,11 @@ import { useRouter } from 'next/navigation';
 import axios from 'axios';
 
 const request = axios.create({
-  baseURL: "http://34.124.245.31:8000"  // This should be the backend server's IP and port
+  baseURL: "http://35.198.218.170:8000"  // This should be the backend server's IP and port
 });
 
 export const Logout = (authToken: string)=>
-        	request.get("http://34.124.245.31:8000/logout",{
+        	request.get("http://35.198.218.170:8000/logout",{
             headers: {
               'Authorization': `${authToken}`,
             },

@@ -133,7 +133,7 @@ function AttractionDetail({}){
                 three={ratingCounts.three}
                 two={ratingCounts.two}
                 one={ratingCounts.one}
-                id="6719c065-3c21-4890-8e3f-32a35922f6d7"
+                id="e4875725-97e0-4990-a781-9a12d8780b0b"
             ></Rating>
              
              <div className="flex flex-col justify-center items-center h-full bg-gray-300 bg-opacity-30">

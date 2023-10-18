@@ -127,7 +127,7 @@ export default function AttractionDetail({}){
                 three={ratingCounts.three}
                 two={ratingCounts.two}
                 one={ratingCounts.one}
-                id="86c562dc-a878-4e79-b2bf-2488181797e3"
+                id="2dfaeceb-11d1-4636-9085-a4738cb2fb09"
             ></Rating>
             
             

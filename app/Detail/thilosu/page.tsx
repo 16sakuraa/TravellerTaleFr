@@ -122,7 +122,7 @@ export default function AttractionDetail(){
                 three={ratingCounts.three}
                 two={ratingCounts.two}
                 one={ratingCounts.one}
-                id='77bb3e20-34bd-4ab3-b6a4-8ca12a49d4fd'
+                id='a68db570-dcbb-45d9-ab03-f5831b04007e'
             ></Rating>
             <div className="flex flex-col justify-center items-center h-full bg-gray-300 bg-opacity-30">
                 <div className="text-4xl font-bold text-blue">
